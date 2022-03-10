@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+.box {
+    border: dotted 2px black;
+    width: 50em;
+    height: 50em;
+    margin: 0 auto;
+}
+
+.inbox {
+    border: dotted 2px red;
+    width: 30em;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+span {
+    border: dotted 2px orange;
+}
+
+.inbox1 {
+    display: inline-block;
+    border: dotted 2px red;
+    width: 10em;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.wrapper {
+    border: dotted 2px red;
+    width: 30em;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
