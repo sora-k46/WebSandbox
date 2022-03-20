@@ -6,3 +6,8 @@
 - Media Queries - detecting the viewport size
 - Flexible grid-based layout for relative sizing
 - Flexible images
+
+# Responsive Options
+- RWD - fluid measurements, flexible grids, and varying CSS rules
+- Adaptive Design (dynamic serving) - returns one of multiple version of a page based on the type of devices
+- Separate Mobile site (.m) - a separate page URL for the mobile site
