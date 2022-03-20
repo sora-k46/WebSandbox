@@ -123,3 +123,9 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 ### breakpoints
 - Breakpoints are sized that define a change in your site layout or content.
 - Used to provide best possible experience for users based on device information.
+
+# meta viewport
+- The meta viewport tag tells mobile browser's viewport how to behave.
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
