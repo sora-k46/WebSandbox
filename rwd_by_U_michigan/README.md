@@ -67,6 +67,8 @@ html {
 
 ```
 
+Note: use [pxtoem.com](http://pxtoem.com/) to convert `px` to `em`
+
 # Viewport Height and Width
 - `vh` - viewport height
 - `vw` - viewport width
