@@ -13,10 +13,15 @@
 - Separate Mobile site (.m) - a separate page URL for the mobile site
 
 # Fonts Responsive
-- px (pixel) - fixed size
-- em - An em is the equivalent of the size (in pixels) defined in the CSS rule font-size.
+- `px` (pixel) - fixed size
+- `em` - An `em` is the equivalent of the size (in pixels) defined in the CSS rule font-size.
 - percentage
-- rem (root em) - size relative to the root element (HTML)
+- `rem` (root em) - size relative to the root element (`<html>`)
+
+## How to ues em and rem together
+Each modules use `rem` to set font-size relative to the root element (`<html>`)
+Then inside the module use the `em` to 
+
 
 ### Ex. em 
 #### HTML
