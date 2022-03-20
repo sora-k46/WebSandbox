@@ -18,9 +18,27 @@
 - percentage
 - `rem` (root em) - size relative to the root element (`<html>`)
 
-## How to ues em and rem together
+## How to use `em` and `rem` together
 Each modules use `rem` to set font-size relative to the root element (`<html>`)
-Then inside the module use the `em` to 
+Then inside the module use the `em` to set the font-size relative to its parent.
+
+```css
+
+html {
+    font-size: 20px;
+}
+
+.parent {
+    font-size: 1rem;
+    /* set the font size to be 20px (1rem) relative to the root */
+}
+
+.child {
+    font-size: 0.5em;
+    /* use the em (0.5 rem or 10px) to set the size relative to the parent */
+}
+
+```
 
 
 ### Ex. em 
