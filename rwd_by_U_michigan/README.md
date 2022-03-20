@@ -85,3 +85,13 @@ Note: use [pxtoem.com](http://pxtoem.com/) to convert `px` to `em`
 ```css
 screen and (max-device-width: 480px) and (resolution: 163dpi)
 ```
+
+# Implement media queries
+- use the @import rule
+```css
+@import url(smallstyle.css) screen and (min-width: 600px)
+```
+- Put media query directly in the style sheet
+```css
+@media screen and (min-width: 500px) {...}
+```
