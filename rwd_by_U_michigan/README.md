@@ -75,7 +75,7 @@ Note: use [pxtoem.com](http://pxtoem.com/) to convert `px` to `em`
 
 # Media Queries
   
-    ## 2 components of query
+## 2 components of query
 - A media type
     - screen, print, all, ...
 - Actual query of a media feature and 'trigger' size
