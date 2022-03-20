@@ -95,3 +95,7 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 ```css
 @media screen and (min-width: 500px) {...}
 ```
+- Include query in the link
+```html
+<link rel="stylesheet" media="screen and (min-width: 400px) and (orientation: portrait)">
+```
