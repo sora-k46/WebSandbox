@@ -79,3 +79,9 @@ Note: use [pxtoem.com](http://pxtoem.com/) to convert `px` to `em`
 - A media type
     - screen, print, all, ...
 - Actual query of a media feature and 'trigger' size
+    - width, height, orientation, resolution, ...
+
+#### Example
+```css
+screen and (max-device-width: 480px) and (resolution: 163dpi)
+```
