@@ -91,11 +91,31 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 ```css
 @import url(smallstyle.css) screen and (min-width: 600px)
 ```
-- Put media query directly in the style sheet
+- Put media query directly in the style sheet (most use!)
 ```css
 @media screen and (min-width: 500px) {...}
 ```
 - Include query in the link
 ```html
 <link rel="stylesheet" media="screen and (min-width: 400px) and (orientation: portrait)">
+```
+
+#### Examples
+```css
+
+@media screen and (min-width: 500px) {
+    p.desc {
+        display: block;
+        font-size: 150%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    p.desc {
+        display: inline-block;
+        width: 35%;
+        font-size: 125%;
+    }
+}
+
 ```
