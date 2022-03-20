@@ -120,6 +120,6 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 
 ```
 
-# breakpoints
+### breakpoints
 - Breakpoints are sized that define a change in your site layout or content.
 - Used to provide best possible experience for users based on device information.
