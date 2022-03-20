@@ -18,12 +18,12 @@
 - percentage
 - rem (root em) - size relative to the root element (HTML)
 
-## Ex. em 
-
-### HTML
-
-```css
-.parent {
-    yolo
-}
+### Ex. em 
+#### HTML
+```html
+<body>
+    <div class="parent">
+        <div class="child">This is a paragraph</div>
+    </div>
+</body>
 ```
