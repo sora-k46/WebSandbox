@@ -6,5 +6,3 @@
 - Media Queries - detecting the viewport size
 - Flexible grid-based layout for relative sizing
 - Flexible images
-
-(use [ami.responsivedesign.is](https://ami.responsivedesign.is) for checking the the website)
