@@ -72,3 +72,9 @@ Note: use [pxtoem.com](http://pxtoem.com/) to convert `px` to `em`
 # Viewport Height and Width
 - `vh` - viewport height
 - `vw` - viewport width
+
+# Media Queries
+## 2 components of query
+- A media type
+    - screen, print, all, ...
+- Actual query of a media feature and 'trigger' size
