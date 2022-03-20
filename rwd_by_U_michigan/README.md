@@ -27,3 +27,20 @@
     </div>
 </body>
 ```
+#### CSS
+```css
+.parent {
+    font-size: 20px;
+    /* 
+        2em = 40px
+        1em = 20px
+        0.5em = 10px
+        0.25em = 5px
+    */
+}
+
+.child {
+    font-size: 2em;
+}
+
+```
