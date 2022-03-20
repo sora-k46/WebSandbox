@@ -15,7 +15,7 @@
 # Fonts Responsive
 - `px` (pixel) - fixed size
 - `em` - An `em` is the equivalent of the size (in pixels) defined in the CSS rule font-size.
-- percentage
+- percentage - relative to the its container
 - `rem` (root em) - size relative to the root element (`<html>`)
 
 ### Ex. em 
