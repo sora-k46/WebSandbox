@@ -1,9 +1,8 @@
 
 main {
-		width: 940px;
-		margin: 0 auto;
-	}
-
+	width: 95%;
+	margin: 0 auto;
+}
 
 html, body {
 	background-color: #ffffff;
@@ -11,13 +10,13 @@ html, body {
 body {
 	margin: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	font-size: 100%;
 	font-weight: normal;
 	color: #404040;
 }
 	
 h1 {
-	font-size: 64px;
+	font-size: 300%;
 	margin: 0;
 	padding: 0;
 }
@@ -27,8 +26,7 @@ h1, h2{
 	text-transform: uppercase;
 }
 
-
  .column {
-		width:300px;
-		display: inline-block;
+	width: 30%;
+	display: inline-block;
 }
