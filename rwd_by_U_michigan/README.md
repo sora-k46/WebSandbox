@@ -138,3 +138,26 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 
 #### Back-end developers
 - Routing, Resources, Security
+
+# Popular front-end frameworks
+- Bootstrap
+- React.js
+- Vue.js
+- Angular.js
+
+# Bootstrap
+- Focuses on responsive, mobiles-first design
+- Consists of
+  - CSS and HTML templates
+  - Javascript extensions
+- Emphasis on interfaces and layouts
+
+### Why use bootstrap
+- Fast development
+- Platform independent
+- Responsive
+- Customizable
+
+# 12-columns grid system
+- Helps with spacing issues
+- Build-in Responsive design
