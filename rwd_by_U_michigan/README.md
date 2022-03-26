@@ -158,6 +158,11 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 - Responsive
 - Customizable
 
+### Why shouldn't use bootstrap
+- Resources heavy
+- Don't follow best practice
+- Very generic design
+
 # 12-columns grid system
 - Helps with spacing issues
 - Build-in Responsive design
