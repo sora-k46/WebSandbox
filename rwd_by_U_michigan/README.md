@@ -129,3 +129,12 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
+
+# Framework
+- make your job easier!
+
+#### Front-end developers
+- CSS, Javascript, jQuery
+
+#### Back-end developers
+- Routing, Resources, Security
