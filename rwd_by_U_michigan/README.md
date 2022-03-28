@@ -201,6 +201,9 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
             <div class="col-sm-12"> 
             <div class="col-md-12"> 
             <div class="col-lg-12"> 
+
+            <!-- They often combined-->
+            <img src="pic.png" class="col-sm-3 col-xs-5 col-md-7 col-lg-12">
             <!-- xx = (xs, sm, md, lg) viewport size -->
             <!-- yy = (0 - 12) no. of column you gonna use -->
 ```
