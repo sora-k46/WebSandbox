@@ -208,6 +208,8 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
             <!-- yy = (0 - 12) no. of column you gonna use -->
 ```
 
+NOTE: the style define in small screen also applied in bigger screen unless you overwrite them.
+
 # Responsive utility classes
 - hidden-xx content will only be hidden on the XX screen size
 - visible-xx content will only be visible on the XX screen size
