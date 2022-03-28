@@ -1,5 +1,5 @@
 
-body{
+body {
 	margin: 1%;
 	padding:1%;
 	background-color: rgba(0,0,255,.2);
@@ -7,23 +7,25 @@ body{
 	min-width: 500px;
 
 }
-header, footer{
+
+header, footer {
   background-color:#0066FF;
   padding: 1%;
   margin: 1%;
 }
-header h1{
+
+header h1 {
 	font-size: 3rem;
 	color:rgba(0,0,0,.7);;
 
 }
 
-section{
+section {
   margin:1%;
     padding:1%;
 }
 
-nav a{
+nav a {
 	display:block;
 	background-color: white;
 	border: 1px solid black;
@@ -34,13 +36,12 @@ nav a{
 	margin: 1%;
 }
 
-h1{
+h1 {
 	text-align: center;
 	color:rgba(255,0,0,.7);;
 }
 
-
-.myClass{
+.myClass {
 	margin: 0em 1em;
 	padding:.75em;
 	border: 1px solid black;
@@ -53,18 +54,23 @@ h1{
 	
 }
 
-
-
-ol{
+ol {
 	list-style:upper-roman; 
 	margin:1em;
 }
-img{
+img {
 	display: none;
 }
 
-footer{
+footer {
 	clear: both;
 	text-align:center;
 	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 900px) {
+
+	body {
+		background-color: white;
+	}
 }
