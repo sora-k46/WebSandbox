@@ -190,8 +190,8 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 - It's not a table
 - Bootstrap layout is based on a 12 column grid
     ### Every grid consists of:
-        - A row
-            - One or more column classes
+    - A row
+        - One or more column classes
 ### Ex.
 ```html
     <div class="container">
