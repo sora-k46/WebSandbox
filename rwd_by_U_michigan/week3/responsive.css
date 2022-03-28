@@ -68,7 +68,7 @@ footer {
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
 
 	header h1::after {
 		content: '(I guess...)';
@@ -106,4 +106,4 @@ footer {
 		font-size: 20px;
 	}
 
-}
+} */
