@@ -68,9 +68,22 @@ footer {
 	text-transform: uppercase;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 900px) {
 
-	body {
-		background-color: white;
+	header h1::after {
+		content: '(I guess...)';
 	}
+
+	header, footer {
+		background-color: rgba(0,0,255,.0);
+	}
+
+	#left {
+		display: inline-block;
+	}
+
+	#center {
+		display: inline-block;
+	}
+
 }
