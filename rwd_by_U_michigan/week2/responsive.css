@@ -68,7 +68,7 @@ footer {
 	text-transform: uppercase;
 }
 
-@media only screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
 
 	header h1::after {
 		content: '(I guess...)';
@@ -79,11 +79,31 @@ footer {
 	}
 
 	#left {
-		display: inline-block;
+		float: left;
+		margin: 0;
 	}
 
-	#center {
-		display: inline-block;
+	img {
+		display: inline;
+		width: 250px;
+		height: 250px;
+		margin: 20px;
+	}
+
+}
+
+@media print {
+
+	* {
+		background-color: #fff;
+	}
+
+	header nav a {
+		border: none;
+	}
+
+	header h1 {
+		font-size: 20px;
 	}
 
 }
