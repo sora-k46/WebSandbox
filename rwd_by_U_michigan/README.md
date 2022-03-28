@@ -166,3 +166,22 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 # 12-columns grid system
 - Helps with spacing issues
 - Build-in Responsive design
+
+# Custom, iPhone retina
+- width from 0 - 320px
+
+### Extra small devices and Phones
+- referred to xs
+- Any devices with minimum width of 480px
+
+### Small devices and Tablets
+- referred to sm
+- Any devices with minimum width of 768px
+
+### Medium devices and Desktops
+- referred to md
+- Any devices with minimum width of 992px
+
+### Large devices and Wide screens
+- referred to lg
+- Any devices with minimum width of 1200px
