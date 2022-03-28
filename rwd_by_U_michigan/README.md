@@ -185,3 +185,10 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 ### Large devices and Wide screens
 - referred to lg
 - Any devices with minimum width of 1200px
+
+# Bootstrap layout
+- It's not a table
+- Bootstrap layout is based on a 12 column grid
+    ### Every grid consists of:
+        - A row
+            - One or more column classes
