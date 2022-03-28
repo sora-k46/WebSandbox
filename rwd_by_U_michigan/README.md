@@ -197,6 +197,10 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
     <div class="container">
         <div class="row">
             <div class="col-xx-yy"> 
-            <!-- xx = viewport size -->
-            <!-- yy = no. of column you gonna use -->
+            <div class="col-xs-12"> 
+            <div class="col-sm-12"> 
+            <div class="col-md-12"> 
+            <div class="col-lg-12"> 
+            <!-- xx = (xs, sm, md, lg) viewport size -->
+            <!-- yy = (0 - 12) no. of column you gonna use -->
 ```
