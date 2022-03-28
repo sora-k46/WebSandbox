@@ -192,3 +192,11 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
     ### Every grid consists of:
         - A row
             - One or more column classes
+### Ex.
+```html
+    <div class="container">
+        <div class="row">
+            <div class="col-xx-yy"> 
+            <!-- xx = viewport size -->
+            <!-- yy = no. of column you gonna use -->
+```
