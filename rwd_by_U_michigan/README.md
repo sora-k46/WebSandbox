@@ -209,8 +209,3 @@ screen and (max-device-width: 480px) and (resolution: 163dpi)
 ```
 
 NOTE: the style define in small screen also applied in bigger screen unless you overwrite them.
-
-# Responsive utility classes
-- hidden-xx content will only be hidden on the XX screen size
-- visible-xx content will only be visible on the XX screen size
-- sr-only content is hidden on all devices except screen readers
