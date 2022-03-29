@@ -35,4 +35,7 @@ further reading:
     Example:
     `npm install lite-server --save-dev`
 
-NOTE: --save-dev means we want to use this package in our development depencies
+NOTE: --save-dev means we want to use this package in our development dependencies.
+
+## Front-End Web UI Framework
+- Collection of ready-to-use HTML, CSS and Javascript templates for UI components.
