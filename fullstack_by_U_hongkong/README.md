@@ -79,15 +79,17 @@ NOTE: --save-dev means we want to use this package in our development dependenci
 
 ### screen size class
 - default targets all screen sizes
-- sm for small
-- md for medium
-- lg for large
-- xl for extra large
+- `sm` for small >= 576px
+- `md` for medium >= 768px
+- `lg` for large >= 992px
+- `xl` for extra large >= 1200px
 
-using screen size class
+Using screen size class
 ```html
 <div class="col-xx-yy">
 <!-- xx = screen size class -->
 <!-- yy = no. column this div will occupied (optional) --> 
 <!-- bootstrap can automatically adjust col for you if the yy not specified --> 
 ```
+
+The `col` class can also be nested and still applied the 12 grid system
