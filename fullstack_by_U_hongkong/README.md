@@ -28,3 +28,10 @@ further reading:
 
 ## Creating package.json
 - Use `npm init` to initialize a package.json
+
+## Using npm to install package
+- Use `npm install <package name> <options>`
+
+    `npm install lite-server --save-dev`
+
+NOTE: --save-dev means we want to use this package in our development depencies
