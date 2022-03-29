@@ -39,3 +39,13 @@ NOTE: --save-dev means we want to use this package in our development dependenci
 
 ## Front-End Web UI Framework
 - Collection of ready-to-use HTML, CSS and Javascript templates for UI components.
+
+## Why  Front-End Web UI Framework?
+- Responsive Design
+    - Mobile first
+- Cross-browser compatibility
+    - Dealing with quirks of browsers
+- Increased productivity
+    - Easy to get started
+- Community support
+    - Resources and web page templates
