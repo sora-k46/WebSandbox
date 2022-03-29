@@ -32,6 +32,7 @@ further reading:
 ## Using npm to install package
 - Use `npm install <package name> <options>`
 
+    Example:
     `npm install lite-server --save-dev`
 
 NOTE: --save-dev means we want to use this package in our development depencies
