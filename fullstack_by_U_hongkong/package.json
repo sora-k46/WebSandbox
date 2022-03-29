@@ -1,0 +1,19 @@
+{
+  "name": "fullstack_by_u_hongkong",
+  "version": "1.0.0",
+  "description": "Learning full stack web development",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sora-k46/WebDevSandbox.git"
+  },
+  "author": "sora-k46",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sora-k46/WebDevSandbox/issues"
+  },
+  "homepage": "https://github.com/sora-k46/WebDevSandbox#readme"
+}
