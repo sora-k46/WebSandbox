@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sora-k46/WebDevSandbox/issues"
   },
-  "homepage": "https://github.com/sora-k46/WebDevSandbox#readme"
+  "homepage": "https://github.com/sora-k46/WebDevSandbox#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
