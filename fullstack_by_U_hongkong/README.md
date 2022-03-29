@@ -76,3 +76,16 @@ NOTE: --save-dev means we want to use this package in our development dependenci
         ...
         ...
 ```
+
+### screen size class
+- default targets all screen sizes
+- sm for small
+- md for medium
+- lg for large
+- xl for extra large
+
+```html
+<div class="col-xx-yy">
+<!-- xx = screen size class -->
+<!-- yy = no. column this div will occupied --> 
+```
