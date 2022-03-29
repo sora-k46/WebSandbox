@@ -84,8 +84,10 @@ NOTE: --save-dev means we want to use this package in our development dependenci
 - lg for large
 - xl for extra large
 
+using screen size class
 ```html
 <div class="col-xx-yy">
 <!-- xx = screen size class -->
-<!-- yy = no. column this div will occupied --> 
+<!-- yy = no. column this div will occupied (optional) --> 
+<!-- bootstrap can automatically adjust col for you if the yy not specified --> 
 ```
