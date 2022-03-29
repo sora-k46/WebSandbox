@@ -49,3 +49,30 @@ NOTE: --save-dev means we want to use this package in our development dependenci
     - Easy to get started
 - Community support
     - Resources and web page templates
+
+## Foundation for Responsive Design
+- Grid system
+- Fluid images
+- Media queries
+
+## Bootstrap Grid
+- container class will automatically adapt itself for various viewport
+```html
+<div class="container">
+```
+- inside the container class the content will be layout as row
+```html
+<div class="container">
+    <div class="row">
+```
+- in each row can be divided into 12 equally columns
+```html
+<div class="container">
+    <div class="row">
+        <div class="col">
+        <div class="col">
+        <div class="col">
+        ...
+        ...
+        ...
+```
