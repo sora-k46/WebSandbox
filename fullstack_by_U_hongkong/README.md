@@ -20,3 +20,11 @@ further reading:
 - A package contains:
     - JS files
     - package.json (manifest)
+
+## package.json
+- It serves as documentation for what packages your project depends on.
+- It allows you to specify the versions of a package that your project can use using **semantic versioning rules**.
+- Make your build reproducible, which means that its way easier to share with other developers.
+
+## Creating package.json
+- Use `npm init` to initialize a package.json
