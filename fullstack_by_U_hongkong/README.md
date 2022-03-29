@@ -93,3 +93,10 @@ Using screen size class
 ```
 
 The `col` class can also be nested and still applied the 12 grid system
+
+### Reordering the content
+
+```html
+<div class"col-sm-7 order-sm-first">
+<div class"col-sm-5 order-sm-last">
+```
