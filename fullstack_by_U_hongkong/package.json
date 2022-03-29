@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/sora-k46/WebDevSandbox#readme",
   "devDependencies": {
+    "bootstrap": "^5.1.3",
     "lite-server": "^2.6.1"
   }
 }
