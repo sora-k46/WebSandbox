@@ -2,7 +2,7 @@
 
 ## What is Full Stack Developer?
 
-Someone who works with the back end -- or server side -- of the application as well as front end, or client side 
+Someone who works with the back end -- or server side -- of the application as well as front end, or client side
 
 further reading:
 
@@ -89,8 +89,8 @@ Using screen size class
 ```html
 <div class="col-xx-yy">
 <!-- xx = screen size class -->
-<!-- yy = no. column this div will occupied (optional) --> 
-<!-- bootstrap can automatically adjust col for you if the yy not specified --> 
+<!-- yy = no. column this div will occupied (optional) -->
+<!-- bootstrap can automatically adjust col for you if the yy not specified -->
 ```
 
 The `col` class can also be nested and still applied the 12 grid system
@@ -136,3 +136,21 @@ With margin
   <div class="col-auto">.col-auto</div>
 </div>
 ```
+## Navigation bar
+Contains links to various pages within the website
+- Do(s)
+    - Use simple, User friendly terms
+    - Standardize navigation
+    - Provide indication of the location within the navigation hierarchy
+    - Use standard web conventions:
+- Don't(s)
+    - Have many items
+    - Use generic labels
+
+## Breadcrumbs
+Secondary navigation
+- Usually place below the primary navigation and above the content
+- Indicator of the current page's location within a navigational hierarchy
+    - Path based: set of steps
+    - Location based: hierarchy
+    - Attribute based: set of choices
