@@ -56,6 +56,7 @@ NOTE: --save-dev means we want to use this package in our development dependenci
 - Media queries
 
 ## Bootstrap Grid
+- !It's built with flexbox and is fully responsive.
 - container class will automatically adapt itself for various viewport
 ```html
 <div class="container">
