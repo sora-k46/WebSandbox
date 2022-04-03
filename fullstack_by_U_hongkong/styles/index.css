@@ -37,3 +37,7 @@ address {
     margin: 0px;
     color: #0f0f0f;
 }
+
+.form-group {
+    margin-top: 20px;
+}
