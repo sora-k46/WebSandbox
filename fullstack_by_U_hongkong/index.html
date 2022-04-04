@@ -21,31 +21,85 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a href="./index.html" class="navbar-brand"><img src="./img/logo.png" alt="logo" height="30" width="41"></a>
-            <div class="collapse navbar-collapse" id="Navbar"> 
+            <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto list-unstyled">
-                    <li class="nav-item"><a href="./index.html" class="nav-link active"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a href="./aboutus.html" class="nav-link"><span class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                    <li class="nav-item"><a href="./contactus.html" class="nav-link"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class="nav-item"><a href="./index.html" class="nav-link active"><span
+                                class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a href="./aboutus.html" class="nav-link"><span
+                                class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span> Menu</a>
+                    </li>
+                    <li class="nav-item"><a href="./contactus.html" class="nav-link"><span
+                                class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
+                <span class="navbar-text">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <span><i class="fa fa-sign-in"></i> Login</span>
+                    </a>
+                </span>
             </div>
         </div>
     </nav>
 
+    <div role="dialog" id="loginModal" class="modal fade">
+        <div role="content" class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button class="close" type="button" data-bs-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
+                                    placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1"
+                                    id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <div class="form-row">
+                        <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                            data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Header -->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
-                    <p class="d-none d-sm-block">We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
+                    <p class="d-none d-sm-block">We take inspiration from the World's best cuisines, and create a unique
+                        fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm-4">
                     <img src="./img/logo.png" alt="logo" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-2 d-flex flex-column justify-content-center">
-                    <button class="btn btn-warning">Reserve Table</button>
+                    <button class="btn btn-warning" data-bs-toggle="tooltip" data-bs-html="true"
+                        title="Or call us at <br><strong>+852 12345678</strong>" data-bs-placement="bottom"
+                        id="btn-tooltip" type="button">Reserve Table</button>
                 </div>
             </div>
         </div>
@@ -63,8 +117,10 @@
                 <div class="media d-flex">
                     <img src="./img/uthappizza.png" alt="uthappizza" class="me-3 img-thumbnail align-self-center">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza <span class="badge bg-danger">HOT</span> <span class="badge rounded-pill bg-secondary">$4.99</span></h2>
-                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives,
+                        <h2 class="mt-0">Uthappizza <span class="badge bg-danger">HOT</span> <span
+                                class="badge rounded-pill bg-secondary">$4.99</span></h2>
+                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian
+                            pizza, topped with Cerignola olives,
                             ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
                 </div>
@@ -81,8 +137,10 @@
                     <img src="./img/buffet.png" alt="buffet" class="me-3 img-thumbnail align-self-center order-sm-last">
                     <div class="media-body">
                         <h2>Weekend Grand Buffet <span class="badge bg-danger">NEW</span></h2>
-                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
-                            six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five
+                            different salads, six enticing appetizers,
+                            six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for
+                            just
                             $19.99 per person </p>
                     </div>
                 </div>
@@ -100,7 +158,8 @@
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International
+                            experience having worked closely with
                             whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
                             experiences. </p>
                     </div>
@@ -117,22 +176,22 @@
                 <form action="">
                     <div class="">
                         <label for="guestnum" class="form-label col-sm-2">Number of Guests</label>
-        
+
                         <input type="radio" value="1" name="guestnum" class="form-check-input">
                         <label for="one" class="form-check-label">1</label>
-        
+
                         <input type="radio" value="2" name="guestnum" class="form-check-input">
                         <label for="two" class="form-check-label">2</label>
-        
+
                         <input type="radio" value="3" name="guestnum" class="form-check-input">
                         <label for="three" class="form-check-label">3</label>
-        
+
                         <input type="radio" value="4" name="guestnum" class="form-check-input">
                         <label for="four" class="form-check-label">4</label>
-        
+
                         <input type="radio" value="5" name="guestnum" class="form-check-input">
                         <label for="five" class="form-check-label">5</label>
-        
+
                         <input type="radio" value="6" name="guestnum" class="form-check-input">
                         <label for="six" class="form-check-label">6</label>
                     </div>
@@ -178,18 +237,24 @@
                         HONG KONG<br>
                         <i class="fa fa-phone fa-lg"></i> Tel.: +852 1234 5678<br>
                         <i class="fa fa-fax fa-lg"></i> Fax: +852 8765 4321<br>
-                        <i class="fa fa-envelope fa-lg"></i> Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                        <i class="fa fa-envelope fa-lg"></i> Email: <a
+                            href="mailto:confusion@food.net">confusion@food.net</a>
                     </address>
                 </div>
 
                 <!-- Footer Third col (Social icons) -->
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube fa-lg"></i></a>
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
                     </div>
                 </div>
@@ -204,6 +269,12 @@
         </div>
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
 </body>
 
 </html>
