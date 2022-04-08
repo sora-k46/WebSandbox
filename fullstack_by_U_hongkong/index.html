@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a href="./index.html" class="navbar-brand"><img src="./img/logo.png" alt="logo" height="30" width="41"></a>
-            <div class="collapse navbar-collapse" id="Navbar">
+            <div class="collapse navbar-collapse justify-content-between" id="Navbar">
                 <ul class="navbar-nav mr-auto list-unstyled">
                     <li class="nav-item"><a href="./index.html" class="nav-link active"><span
                                 class="fa fa-home fa-lg"></span> Home</a></li>
@@ -54,12 +54,12 @@
                     <form>
                         <div class="form-row">
                             <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                <label class="" for="exampleInputEmail3">Email address</label>
                                 <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
                                     placeholder="Enter email">
                             </div>
                             <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <label class="" for="exampleInputPassword3">Password</label>
                                 <input type="password" class="form-control form-control-sm mr-1"
                                     id="exampleInputPassword3" placeholder="Password">
                             </div>
@@ -97,9 +97,9 @@
                     <img src="./img/logo.png" alt="logo" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-2 d-flex flex-column justify-content-center">
-                    <button class="btn btn-warning" data-bs-toggle="tooltip" data-bs-html="true"
+                    <button class="btn btn-warning" data-bs-toggle="" data-bs-html="true"
                         title="Or call us at <br><strong>+852 12345678</strong>" data-bs-placement="bottom"
-                        id="btn-tooltip" type="button">Reserve Table</button>
+                        id="" type="button">Reserve Table</button>
                 </div>
             </div>
         </div>
@@ -324,12 +324,6 @@
         </div>
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
-    </script>
 </body>
 
 </html>
